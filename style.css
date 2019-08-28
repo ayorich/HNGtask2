@@ -13,8 +13,10 @@ body{
     margin: 40px 150px;
     padding: 100px;
     background-color: rgba(255, 255, 255, 0.849);
+    /* background-color: white; */
     box-shadow: 0px 6px 6px rgba(14, 13, 13, 0.842);
     position: relative;
+    border-radius: 280px;
 }
 
  .heading{
@@ -38,11 +40,11 @@ body{
 } 
 
 .headings{
-    margin: 20px 0;
+    margin: 35px 0 10px;
     color: black;
 }
 .little-headings{
-    margin: 15px 0 10px;
+    margin: 25px 0 10px;
     color: rgba(22, 22, 24, 0.842)
 
 }
