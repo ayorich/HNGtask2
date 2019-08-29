@@ -1,4 +1,2 @@
 
-GIT PULL URL - 
-
 MY CODE NUMBER - shn01749
