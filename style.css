@@ -58,3 +58,63 @@ strong{
     position: absolute;
     right: 120px;
 }
+
+
+ .space2{
+    width:500px;
+    margin: 20px;
+    padding: 20px;
+        /*border-color:red; border-width:1px; border-style:solid;*/
+}
+
+  input[type="text"], input[type="email"], select, textarea{
+				width: 100%;
+				border-width: 2px;
+				border-color: lightgreen;
+				border-style: solid;
+				border-radius: 4px;
+				box-sizing: border-box;
+				color: blue;
+				text-transform: uppercase;
+		}
+			input[type="text"], input[type="email"], select{
+					height: 30px;				
+			}
+			textarea{
+					height: 250px;
+			}
+			input[type="text"], input[type="email"],textarea{
+				   margin-bottom: 0px;
+			}	
+			select:focus{
+					min-width: 50px;
+					width: auto;
+			}
+		#contact{
+			color: black;
+			 text-align:center;
+        }
+        
+        .button{
+				background-color: green;
+				border-radius: 20px;
+                color: white;
+                cursor: pointer;
+		}
+			.group1 #fade .button{
+				  padding: 10px;
+			}
+			form .button{
+				  padding: 10px 20px 10px 20px;
+            }
+        a{
+        text-decoration: none;
+        }    
+
+
+#invalid{
+    font-size: 15px;
+    margin: 0px;
+    color: red;
+    opacity: 0;
+}

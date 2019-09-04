@@ -19,7 +19,8 @@
                     <p>Igbala, Sango-Ota, </p> 
                     <p>Ogun State, Nigeria. </p> 
                     <p><strong>E-mail: </strong>kayodele17@yahoo.com </p>
-                    <p><strong>Tel: </strong>+2348037482513, +2348089313273</p>        
+                    <p><strong>Tel: </strong>+2348037482513, +2348089313273</p> 
+                    <a href="#contact"> Contact Me</a>       
                 </div> 
             
         </header>
@@ -149,8 +150,29 @@
                 </p>
             </div>
         </section> 
+
+        <div class="space2" >
+            <p id="contact">Contact Me</p>
+            <form>
+                <label>Name</label><br>
+                <input type="text" name="name" placeholder="FirstName LastName" minlength="4" id="name" required ><br>
+                <p id='invalid'>** Name format is invalid</p>
+                <label>Email<br><input type="email" name="email" placeholder="Email" id="email" required></label><br>
+                <p id='invalid'>** Email format is invalid</p>
+                <label>Title</label><br>
+                <input type="text" name="title" id="title" minlength="4"  placeholder="Title"><br>
+                <p id='invalid'>** Title format is invalid</p>
+                <label>Message<br><textarea name="comment" minlength="20" required></textarea></label><br>
+                <button class="button">Submit</button>
+            </form>
+        </div>
+        
+
    </div> 
    
+<script src="script.js"></script>
 
+   </div> 
+   
 </body>
 </html>
